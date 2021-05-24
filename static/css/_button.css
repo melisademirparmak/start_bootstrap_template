@@ -1,0 +1,45 @@
+/* @ Button */
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn-green{
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    background-color:#1ABC9C ;
+    border-radius: 5px;    
+}
+
+.btn-green a{
+    display: inline;
+    margin-left: 15px;
+}
+
+.btn-green:hover{
+    background-color: #fff;;
+}
+
+.btn-green:hover a, .btn-green:hover i{
+    color:#000;
+
+}
+
+.btn-green a {
+    color:#fff;
+}
+
+.btn-dark-green{
+    padding: 15px 20px;
+    border: 1px solid #1ABC9C;
+    background-color:#1ABC9C;
+    color:#fff;
+    border-radius: 5px;
+}
+
+.btn-dark-green:hover{
+    background-color: #12846e;
+    border-color: #12846e;
+}

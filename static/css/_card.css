@@ -1,0 +1,31 @@
+img{
+    border-radius: 5px;
+    
+}
+.color-blue{
+    color:#2C3E50;
+}
+
+.relative{
+    position: relative;
+}
+
+.relative::before{
+   position: absolute;
+   content: "+";
+   top:50%;
+   font-size: 80px;
+   left: 50%;
+   transform:translate(-50%, -50%);
+   transition: all 0.5s;
+   color:#fff;
+   opacity: 0;
+
+}
+
+.relative:hover::before{
+    opacity: 0.8;
+    background-color:#1ABC9C;
+    border-radius: 5px;
+    padding: 88px 153px;
+}

@@ -1,0 +1,68 @@
+/* @Grid */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.column{
+    padding-left: 1rem;
+    padding-right:1rem;
+}
+
+.container{
+    margin:0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-direction{
+    flex-direction: column;
+}
+
+.flex-3 {
+    flex-basis: calc(100% / 3);
+}
+
+.flex-2{
+    flex-basis: calc(100% / 2);
+}
+
+@media (min-width: 1150px){
+    .container {
+        max-width: 1150px;
+    }
+}
+
+
+
+@media(max-width:830px){
+    .container {
+        max-width: 830px;
+     
+    }
+
+    .flex2{
+        flex: calc(100% / 2);
+    }
+}
+
+
+@media(max-width:500px){
+    .container {
+        max-width: 500px;
+        
+    }
+
+    .flex-1{
+        flex: 100%;
+    }
+}
+
+
+

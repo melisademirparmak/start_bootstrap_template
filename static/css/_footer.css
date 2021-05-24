@@ -1,0 +1,54 @@
+.bg-dark-blue{
+    background-color: #2C3E50;
+}
+
+h3{
+    color:#fff;
+    margin-bottom:30px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.location p, .about-free p{
+    color:#fff;
+}
+
+.social-media-list {
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media-list  .social-media-list-item{
+    margin-left:20px;
+}
+
+.social-media-list i:hover{
+    background-color: #fff;
+    color:#000;
+}
+
+.social-media-list  i {
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 50%;
+    font-size:15px
+}
+
+.about-free a{
+    color:#12846e;
+
+}
+
+.about-free a:hover{
+    text-decoration: underline;
+    color:#23AC9A;
+
+}
+.copyright{
+    background-color: #1A252F;
+}
+
+.copyright p {
+    color:#fff;
+    
+}

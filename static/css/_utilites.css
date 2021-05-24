@@ -1,0 +1,98 @@
+/* @ Text-Align */ 
+
+.text-center {
+    text-align: center;
+}
+
+
+/* @Text-Transform */
+
+.text-transform{
+    text-transform: uppercase;
+}
+
+/* @ Margin */
+
+.mt-50{
+    margin-top:50px
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.mb-15{
+    margin-bottom: 15px;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* @ Paddding */
+
+.pb-100{
+    padding-bottom:100px
+}
+
+.pt-50{
+    padding-top: 50px;
+}
+
+.pb-20{
+    padding-bottom: 20px;
+}
+
+.pt-20{
+    padding-top: 20px;
+}
+
+.color-bg{
+    color:#2C3E50;
+    font-size:40px;
+    font-weight: 700;
+
+}
+
+.color-white{
+    color:#fff;
+    font-size:40px;
+    font-weight: 700;
+}
+
+.bg-blue{
+    background-color: #1ABC9C;
+       
+}
+
+.bg-white{
+    background-color: #fff;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+@media screen and (max-width: 800px) {    
+    .pb-50{
+        padding-bottom: 50px !important;
+    }
+}
+
+.relative {
+    position: relative;
+}

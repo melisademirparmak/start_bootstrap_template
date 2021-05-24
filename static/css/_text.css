@@ -1,0 +1,16 @@
+.hero-text {
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.hero-description {
+    font-size: 20px;
+    color:#fff;
+}
+
+@media (max-width: 1150px) {
+    .hero-text {
+        font-size: 25px;
+    }
+}

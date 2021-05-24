@@ -1,0 +1,17 @@
+.form{
+    align-items: center;
+   
+   
+
+}
+
+input,textarea{
+    border-bottom: 1px solid rgb(220 210 210);
+    font-size:22px ;
+    padding-bottom:25px ;
+    margin-bottom: 30px;
+    width: 100%;
+    
+    
+}
+
